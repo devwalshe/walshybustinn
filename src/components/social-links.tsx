@@ -13,10 +13,9 @@ interface SocialLink {
 }
 
 const links: SocialLink[] = [
-  { icon: SiDiscord, href: 'https://discord.dog/204594797812383744' },
-  { icon: SiGithub, href: 'https://github.com/aelew' },
-  { icon: SiLinkedin, href: 'https://www.linkedin.com/in/aelew' },
-  { icon: SiX, href: 'https://x.com/aelew0' }
+  { icon: SiDiscord, href: 'https://discord.dog/90575242589655040' },
+  { icon: SiGithub, href: 'https://github.com/devwalshe' },
+  { icon: SiX, href: 'https://twitter.com/WalsheSway' }
 ];
 
 export function SocialLinks() {
@@ -27,7 +26,7 @@ export function SocialLinks() {
           <link.icon className="transition-opacity hover:opacity-75" />
         </Link>
       ))}
-      <Link href="mailto:me@aelew.com" target="_blank">
+      <Link href="mailto:wwalshyyy0615@gmail.com" target="_blank">
         <EmailIcon />
       </Link>
     </div>

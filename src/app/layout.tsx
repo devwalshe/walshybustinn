@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
-  title: { default: 'aelew', template: '%s | aelew' }
+  title: { default: 'walshe', template: '%s | walshe' }
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
@@ -19,8 +19,8 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <head>
         <Script
           data-website-id="c277bd71-c6de-47a5-af88-10e9a1a6b514"
-          src="https://analytics.aelew.com/script.js"
-          data-domains="aelew.com"
+          src="https://analytics.walshe.com/script.js"
+          data-domains="walshe.com"
           async
         />
       </head>

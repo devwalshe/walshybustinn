@@ -28,47 +28,12 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: '💻 aelew.com',
-    href: 'https://github.com/aelew/com',
+    name: '💻 walshe.com',
+    href: 'https://github.com/walshe/com',
     icons: [SiTailwindcss, SiNextdotjs, SiTypescript],
     description:
       "My personal website made with Next.js and Tailwind CSS. You're looking at it right now!"
   },
-  {
-    name: '🤖 CryptoTracker',
-    href: '/projects/cryptotracker',
-    icons: [SiDiscord, SiPython, SiBitcoin],
-    description:
-      'A Discord bot that notifies users when their cryptocurrency transactions confirm.'
-  },
-  {
-    name: '🧩 Cobalt for Raycast',
-    href: 'https://github.com/aelew/raycast-cobalt',
-    icons: [SiReact, SiTypescript],
-    description:
-      'A Raycast extension for downloading videos and audio from social media platforms.'
-  },
-  {
-    name: '📆 UC Merced iCal',
-    href: 'https://github.com/aelew/ucmerced-ical',
-    icons: [SiTailwindcss, SiNextdotjs, SiTypescript],
-    description:
-      'Import UC Merced course schedules into Apple Calendar, Google Calendar, etc.'
-  },
-  {
-    name: '📝 discord-bot-template',
-    href: 'https://github.com/aelew/discord-bot-template',
-    icons: [SiDiscord, SiBun, SiTypescript],
-    description:
-      'A type-safe Discord.js v14 boilerplate built with TypeScript and the Bun runtime.'
-  },
-  {
-    name: '✨ conai',
-    href: 'https://github.com/aelew/conai',
-    icons: [SiConventionalcommits, SiOpenai, SiJavascript],
-    description:
-      'A CLI tool for normalizing commit messages as per the Conventional Commits spec.'
-  }
 ];
 
 export function ProjectGrid() {

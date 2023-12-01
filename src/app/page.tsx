@@ -16,11 +16,10 @@ export default function HomePage() {
         animate={{ y: 0, opacity: 1 }}
       >
         <h1 className="mb-2 text-3xl font-bold tracking-tight">
-          <span className="text-gradient mr-1">Hey, I&apos;m Andre.</span> 👋
+          <span className="text-gradient mr-1">Hey, I&apos;m William.</span> 👋
         </h1>
         <p className="text-muted-foreground">
-          I&apos;m an 18-year-old developer and student majoring in Computer
-          Science. I love building and learning about new things! If you want to
+          I&apos;m an 25-year-old self-taught developer & a passionate gamer at heart. I love building and learning about new things! If you want to
           chat, you can find me at my socials below.
         </p>
         <SocialLinks />

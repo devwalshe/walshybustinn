@@ -1,8 +1,8 @@
 {
-  "name": "aelew.com",
+  "name": "walshe.com",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "aelew",
+  "author": "walshe",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

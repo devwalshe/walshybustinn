@@ -44,7 +44,7 @@ export default function CryptoTrackerPage() {
         </Link>
         <Link
           className={buttonVariants({ variant: 'secondary' })}
-          href="https://github.com/aelew/cryptotracker"
+          href="https://github.com/walshe/cryptotracker"
           target="_blank"
         >
           <GitHubLogoIcon className="mr-2" /> GitHub

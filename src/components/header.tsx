@@ -26,7 +26,7 @@ export function Header() {
               width={32}
             />
             <span className="text-gradient text-xl font-semibold tracking-tight">
-              aelew
+              walshe
             </span>
           </Link>
           <div>
